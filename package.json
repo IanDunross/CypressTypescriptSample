@@ -1,0 +1,25 @@
+{
+  "name": "cypresstypescriptsample",
+  "version": "1.0.0",
+  "description": "Simple example of Cypress and Typescript",
+  "main": "index.js",
+  "scripts": {
+    "cypressOpen": "cypress open",
+    "type": "tsc"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/IanDunross/CypressTypescriptSample.git"
+  },
+  "author": "Ian Dunross",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/IanDunross/CypressTypescriptSample/issues"
+  },
+  "homepage": "https://github.com/IanDunross/CypressTypescriptSample#readme",
+  "devDependencies": {
+    "cypress": "^12.17.2",
+    "cypress-tags": "^1.1.2",
+    "typescript": "^5.1.6"
+  }
+}
